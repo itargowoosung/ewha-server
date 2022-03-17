@@ -43,6 +43,7 @@ class SimpleServer(BaseHTTPRequestHandler):
 if __name__ == "__main__":
     webServer = HTTPServer(("0.0.0.0", 8080), SimpleServer)
     try:
+        print("Starting server")
         webServer.serve_forever()
     except KeyboardInterrupt:
         pass
