@@ -49,7 +49,8 @@ jobs:
               sudo docker rm -f $(docker ps -aq --filter name=ewha-server-${{ secrets.USERNAME }});
             fi &&
             sudo docker run -d -p ${{ secrets.SERVER_PORT }}:'8080' --name ewha-server-${{ secrets.USERNAME }} ghcr.io/${{ secrets.USERNAME }}/ewha-server:production
-          key: -----BEGIN RSA PRIVATE KEY-----
+          key: |
+            -----BEGIN RSA PRIVATE KEY-----
             MIIEowIBAAKCAQEAmCtV0Mwtuz05puwHNkuwfxP8EkWV5L6Y4F17qp5NxTchECzk
             dtMRzmkrs022dvHRnteylAjAjKaxuyJ/lL6WdDhbGhMRBdsjBe5LTJiRweJfUv4o
             h32eFyaGOxAeU2rSC3z4zGpYtpcBYhXXIkJgW1m58HFvBqccomlWrFBvx0a2eh34
