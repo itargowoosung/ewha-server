@@ -50,29 +50,29 @@ jobs:
             fi &&
             sudo docker run -d -p ${{ secrets.SERVER_PORT }}:'8080' --name ewha-server-${{ secrets.USERNAME }} ghcr.io/${{ secrets.USERNAME }}/ewha-server:production
           key: -----BEGIN RSA PRIVATE KEY-----
-MIIEowIBAAKCAQEAmCtV0Mwtuz05puwHNkuwfxP8EkWV5L6Y4F17qp5NxTchECzk
-dtMRzmkrs022dvHRnteylAjAjKaxuyJ/lL6WdDhbGhMRBdsjBe5LTJiRweJfUv4o
-h32eFyaGOxAeU2rSC3z4zGpYtpcBYhXXIkJgW1m58HFvBqccomlWrFBvx0a2eh34
-pqDqiOz0IytxKWf3tgVCR7qO+n3wgbV1aOUA7DdpLCorU4wZT+89FSPqAZ2xtAwW
-EUfc/APsE/J3mfe/KKdP1y67reYVx4Mx7tVjCVPqOZgS/LB1cFGlZA855sc50lVi
-TGcCunuALuAhiavJJFYa8yonkqlaS9E2dYvuVQIDAQABAoIBACsgbQvmMjfU3FgQ
-oOKkhPsfINvU2OyhkBZWqEvs3cG9JCO/dWiv3WYQrI/+wG3pjy1jmHsYF+pE/C47
-UslHUsDRkBBNww9T0hNGPBUTUIwQqk+NNNNhqMKK6pQmt1GQ/sK+woy8vzPQjFXO
-NtDA2ypIvcgFfh/2kMj+7c+cZHGnh18569NFwvPWwUJYD6U21Nyl1Wb4ohxVgm46
-PzKlxjXLQdivOc8dfRvJVJZ0/JQkCMOPP2cYRqBLxfepbC15/sRDMFvUqWBzEGLr
-HSkkTidyPdfvFgtsWVNo1StxYER3uKl+iWEtlYaZhBEfuaVzSd0sSaz8woou7HeT
-+G2f2qkCgYEA/pF2nM+Vi+HS1HKiJ7SecK69n3hfHi6chPTTKBTnCd9dJjuHfET6
-hSDuOCewfWCIWt8lTbGV3wrJwzuqUiBSOxxCfKdFaVXlBwQ8Ylpt1DAuvlNFxxM/
-DML/lajVc7D3X7e9Ip50Vry3lRW69/XPJvyUboHNjnazvExN6pTJU+cCgYEAmQZv
-I2y69VSvfFJh10pNZjuW4sc5k0uDfoTaZhHLSbmOp432zoEc1hMvNravLAAXx7Cn
-HvO52hlwiuAQTRMEpAVPZedfbD1szKI0epB/YlxvDnwnfNxtPHcm/wzsCzVmClOc
-bTiy7k+l1dYi8lH+xNODuPCgDqKYqFsUQ0h8JGMCgYEApFS+nueaAByc/qupZbxA
-8zi6C/GmZVNtkp6AmMU1h7f6561R/rSAi+QAI5vrYGQqYY7fA9J5juvl5vPjNPTM
-YIATo2hPdHoQSIFBgbQiZfFcm1wiFSqlbtWKK9A7Sl2Yst9nZqunKj7Uu5a1hU/W
-k7JFFzkPusGBsTIIsj+t300CgYBrU1ztnpv951hxPKKMyftBIbgw9AQIr+TY/rri
-7cYDvlY0ZFhe+6VK7AeoOzbfCG2lS9va1JxcQI1zibVFKXqOw36tfTqrAuXlHDrs
-X55IUYY+xYs4gq1GxFcgeWKwddJMmdnTrPmqNUidkuPNyv6B88umEXZg7V9ebQro
-KdWP+wKBgDLeGenh0WhLJpXHa6pQQ/BLHf+2wvcRmnqJ3v0vjehWGFZHBYZxcqKC
-/KkSNDRZ3BEq0ke1GHCCNXZnZhO1yCS2GAfcXZUiRbIwgYzjowz6bBUBIexZvjek
-+jtJlnoQObAeKMvDgGjuHOLCoFrsnkpVCJeeEAXPa2kz74OXyZ2M
------END RSA PRIVATE KEY-----
+            MIIEowIBAAKCAQEAmCtV0Mwtuz05puwHNkuwfxP8EkWV5L6Y4F17qp5NxTchECzk
+            dtMRzmkrs022dvHRnteylAjAjKaxuyJ/lL6WdDhbGhMRBdsjBe5LTJiRweJfUv4o
+            h32eFyaGOxAeU2rSC3z4zGpYtpcBYhXXIkJgW1m58HFvBqccomlWrFBvx0a2eh34
+            pqDqiOz0IytxKWf3tgVCR7qO+n3wgbV1aOUA7DdpLCorU4wZT+89FSPqAZ2xtAwW
+            EUfc/APsE/J3mfe/KKdP1y67reYVx4Mx7tVjCVPqOZgS/LB1cFGlZA855sc50lVi
+            TGcCunuALuAhiavJJFYa8yonkqlaS9E2dYvuVQIDAQABAoIBACsgbQvmMjfU3FgQ
+            oOKkhPsfINvU2OyhkBZWqEvs3cG9JCO/dWiv3WYQrI/+wG3pjy1jmHsYF+pE/C47
+            UslHUsDRkBBNww9T0hNGPBUTUIwQqk+NNNNhqMKK6pQmt1GQ/sK+woy8vzPQjFXO
+            NtDA2ypIvcgFfh/2kMj+7c+cZHGnh18569NFwvPWwUJYD6U21Nyl1Wb4ohxVgm46
+            PzKlxjXLQdivOc8dfRvJVJZ0/JQkCMOPP2cYRqBLxfepbC15/sRDMFvUqWBzEGLr
+            HSkkTidyPdfvFgtsWVNo1StxYER3uKl+iWEtlYaZhBEfuaVzSd0sSaz8woou7HeT
+            +G2f2qkCgYEA/pF2nM+Vi+HS1HKiJ7SecK69n3hfHi6chPTTKBTnCd9dJjuHfET6
+            hSDuOCewfWCIWt8lTbGV3wrJwzuqUiBSOxxCfKdFaVXlBwQ8Ylpt1DAuvlNFxxM/
+            DML/lajVc7D3X7e9Ip50Vry3lRW69/XPJvyUboHNjnazvExN6pTJU+cCgYEAmQZv
+            I2y69VSvfFJh10pNZjuW4sc5k0uDfoTaZhHLSbmOp432zoEc1hMvNravLAAXx7Cn
+            HvO52hlwiuAQTRMEpAVPZedfbD1szKI0epB/YlxvDnwnfNxtPHcm/wzsCzVmClOc
+            bTiy7k+l1dYi8lH+xNODuPCgDqKYqFsUQ0h8JGMCgYEApFS+nueaAByc/qupZbxA
+            8zi6C/GmZVNtkp6AmMU1h7f6561R/rSAi+QAI5vrYGQqYY7fA9J5juvl5vPjNPTM
+            YIATo2hPdHoQSIFBgbQiZfFcm1wiFSqlbtWKK9A7Sl2Yst9nZqunKj7Uu5a1hU/W
+            k7JFFzkPusGBsTIIsj+t300CgYBrU1ztnpv951hxPKKMyftBIbgw9AQIr+TY/rri
+            7cYDvlY0ZFhe+6VK7AeoOzbfCG2lS9va1JxcQI1zibVFKXqOw36tfTqrAuXlHDrs
+            X55IUYY+xYs4gq1GxFcgeWKwddJMmdnTrPmqNUidkuPNyv6B88umEXZg7V9ebQro
+            KdWP+wKBgDLeGenh0WhLJpXHa6pQQ/BLHf+2wvcRmnqJ3v0vjehWGFZHBYZxcqKC
+            /KkSNDRZ3BEq0ke1GHCCNXZnZhO1yCS2GAfcXZUiRbIwgYzjowz6bBUBIexZvjek
+            +jtJlnoQObAeKMvDgGjuHOLCoFrsnkpVCJeeEAXPa2kz74OXyZ2M
+            -----END RSA PRIVATE KEY-----
