@@ -2,13 +2,12 @@
 간단한 서버 코드입니다.
 """
 from http.server import BaseHTTPRequestHandler, HTTPServer
-import time
 
 def total(num1, num2):
     """
     num1과 num2 더하기
     """
-    return num1 - num2
+    return num1 + num2
 
 
 class SimpleServer(BaseHTTPRequestHandler):
